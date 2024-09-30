@@ -52,7 +52,7 @@ for i, N in enumerate(N_values):
     for t_i in t:
         s += (x_t(t_i) - fourier_series_approx(N, t_i, omega_0)) ** 2
     s = s / 7
-    print(f"Erro quadratico medio para N={1}: {s}")
+    print(f"Erro quadratico medio para N={N}: {s}")
 
 # plt.figure(figsize=(12, 10))
 

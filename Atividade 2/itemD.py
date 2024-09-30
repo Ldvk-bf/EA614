@@ -17,7 +17,7 @@ def a_k(k, omega_0):
         )
         
 # Calcular os 50 primeiros coeficientes a_k
-k_values = np.arange(1, 51)
+k_values = np.arange(-50, 51)
 a_k_values = [a_k(k, omega_0) for k in k_values]
 
 # Plotar os coeficientes
